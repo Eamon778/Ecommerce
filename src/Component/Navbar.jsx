@@ -12,7 +12,7 @@ function Navbar(){
 
     return (
         <>
-            <div className="container mx-auto py-8">
+            <div className="container mx-auto px-2 md:px-0 py-8">
                 <nav className="flex justify-between items-center">
                     <div className="flex items-center gap-3">
                         <div className="block lg:hidden">
