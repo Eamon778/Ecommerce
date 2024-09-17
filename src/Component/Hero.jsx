@@ -1,6 +1,11 @@
 import heroPerson from '../assets/hero-persons.png';
 import heroStarSmall from '../assets/hero-star-small.png';
-import heroStarBig from '../assets/hero-star-big.png'
+import heroStarBig from '../assets/hero-star-big.png';
+import heroBrands1 from '../assets/hero-brands1.png';
+import heroBrands2 from '../assets/hero-brands2.png';
+import heroBrands3 from '../assets/hero-brands3.png';
+import heroBrands4 from '../assets/hero-brands4.png';
+import heroBrands5 from '../assets/hero-brands5.png';
 
 function Hero(){
 
@@ -41,8 +46,12 @@ function Hero(){
                 </div>
             </section>
             <section className='bg-black'>
-                <div className="md:container mx-auto">
-                    
+                <div className="md:container mx-auto px-2 md:px-0 py-8 flex items-center justify-around flex-wrap gap-4">
+                        <img src={heroBrands1} alt="" className='h-8 md:h-auto' />
+                        <img src={heroBrands2} alt="" className='h-8 md:h-auto' />
+                        <img src={heroBrands3} alt="" className='h-8 md:h-auto' />
+                        <img src={heroBrands4} alt="" className='h-8 md:h-auto' />
+                        <img src={heroBrands5} alt="" className='h-8 md:h-auto' />
                 </div>
             </section>
         </>
